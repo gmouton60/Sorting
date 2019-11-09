@@ -1,8 +1,3 @@
-//Student Name: Gerald Mouton
-//LSU ID:894569516
-//Lab Section:1
-//Assignment: Lab 7
-//Submission Time: 5:00
 
 package sorting.algorithms;
 //import for random numbers,user input, and time
@@ -38,18 +33,18 @@ public class SortingAlgorithms {
         Instant finish = Instant.now();
         System.out.println("SelectionSort Time is: "+ Duration.between(start, finish).toMillis());
         
-//        //calls and gets the time of bubble sort
-//        start = Instant.now();
-//        BubbleSort(array.clone());
-//        finish = Instant.now();
-//        System.out.println("Time is: "+ Duration.between(start, finish).toMillis());
-//	
-//        
-//        //calls and gets the time of short circuit bubble sort
-//        start = Instant.now();
-//        SCBubbleSort(array.clone());
-//        finish = Instant.now();
-//        System.out.println("Time is: "+ Duration.between(start, finish).toMillis());
+        //calls and gets the time of bubble sort
+        start = Instant.now();
+        BubbleSort(array.clone());
+        finish = Instant.now();
+        System.out.println("Time is: "+ Duration.between(start, finish).toMillis());
+	
+        
+        //calls and gets the time of short circuit bubble sort
+        start = Instant.now();
+        SCBubbleSort(array.clone());
+        finish = Instant.now();
+        System.out.println("Time is: "+ Duration.between(start, finish).toMillis());
         
         
         //calls and gets the time of insertion sort
